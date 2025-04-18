@@ -1,22 +1,23 @@
-/.phpunit.cache
-
-/public/hot
-
-/storage/*.key
-/storage/pail
+# Laravel
 /vendor
-
-.env.backup
-.env.production
-.phpactor.json
+/node_modules
+/public/storage
+/storage/*.key
+.env
+.env.*
 .phpunit.result.cache
 Homestead.json
 Homestead.yaml
 npm-debug.log
 yarn-error.log
-/auth.json
-/.fleet
 /.idea
-/.nova
-/.vscode
-/.zed
+.DS_Store
+
+# Composer
+composer.lock
+
+# Laravel Mix
+/public/js/*
+!/public/js/app.js
+/public/css/*
+!/public/css/app.css
